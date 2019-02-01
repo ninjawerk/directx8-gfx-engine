@@ -28,17 +28,5 @@ Public Vertex_List_1(2) As TLVERTEX
 Public Const FVF_TLVERTEX As Long = D3DFVF_XYZRHW Or D3DFVF_TEX1 Or D3DFVF_DIFFUSE Or D3DFVF_SPECULAR
 Public Declare Function GetTickCount Lib "kernel32" () As Long
 
-
-
-
-
-
-
-
-
-
-
-
-
 Private bufVertex As Direct3DVertexBuffer8 '=> VertexBuffer
 Const fvfUDVertex = (D3DFVF_XYZRHW Or D3DFVF_DIFFUSE)
